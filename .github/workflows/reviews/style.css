@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+header>*{
+    display: inline-block;
+    text-decoration: none;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+h3{
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+}
+main{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(58, 58, 58);
+}
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0 14px;
+}
+header>img{
+    vertical-align: middle;
+    width: 80px;
+}
+header{
+    background-color: rgba(255, 68, 0, 0.705);
+    border-radius: 10px;
+    margin: 2px;
+    border: 3px solid black;
+}
+.pustota{
+    width: 28%;
+}
+footer{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+.review{
+    background: #ffffc6; 
+    width: 300px; 
+    text-align: center;
+    padding: 4px 4px;
+    border-radius: 10px;
+    margin: 0 43px 43px 0; 
+    vertical-align: top;
+    display: inline-block; 
+}
+.review img{
+    border-radius: 7px;
+    width: 280px;
+}
+.inside{
+    text-align: center;
+    display: flex;
+}
+.inside>img{
+    border-radius: 50%;
+    width: 30px;
+}
